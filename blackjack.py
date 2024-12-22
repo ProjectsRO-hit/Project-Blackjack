@@ -1,5 +1,8 @@
 import random
+import art
 import os
+
+print(art.logo)
 
 def draw_card():
     """Draws a random card. Ace (11), 2-10, Jack (10), Queen (10), King (10)."""
